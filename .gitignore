@@ -1,0 +1,8 @@
+History/
+.history/
+*-backups/
+*.bak
+*.lck
+*.kicad_prl
+*.PrjPcbStructure
+Thumbs.db
