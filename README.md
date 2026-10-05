@@ -1,6 +1,6 @@
 # KiCad PCB Design Portfolio
 
-**LED indicators Â· Voltage regulation Â· Schematic-to-PCB workflow**
+**LED indicators · Voltage regulation · NE555 timer · Schematic-to-PCB workflow**
 
 Three practice projects with editable source files, supplied fabrication exports, and generated board/schematic previews.
 
