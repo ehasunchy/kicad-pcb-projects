@@ -4,14 +4,14 @@
 
 Three practice projects with editable source files, supplied fabrication exports, and generated board/schematic previews.
 
-![Regulator PCB](KiCad_Job_Practice_02-board.png)
+![Regulator PCB](5V_to_3V3_LDO_Board-board.png)
 
 ## Projects
 
 | Project | Scope |
 | :--- | :--- |
-| [KiCad Job Practice 01](KiCad_Job_Practice_01.md) | A three-footprint LED indicator practice board with a 330-ohm resistor and two-pin connector. |
-| [KiCad Job Practice 02](KiCad_Job_Practice_02.md) | A seven-footprint AMS1117-3.3 regulator practice board with capacitors, input/output connectors, and an LED indicator. |
+| [LED Basic Board](LED_Basic_Board.md) | A three-footprint LED indicator practice board with a 330-ohm resistor and two-pin connector. |
+| [5V to 3V3 LDO Board](5V_to_3V3_LDO_Board.md) | A seven-footprint AMS1117-3.3 regulator practice board with capacitors, input/output connectors, and an LED indicator. |
 | [NE555 Astable LED Blinker](555_Timer_LED_Blinker.md) | A 5V timer-based LED blinker with editable source, Gerbers, drill exports, and previews. |
 
 ## Open a design
