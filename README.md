@@ -1,8 +1,8 @@
 # KiCad PCB Design Portfolio
 
-**LED indicators · Voltage regulation · Schematic-to-PCB workflow**
+**LED indicators Â· Voltage regulation Â· Schematic-to-PCB workflow**
 
-Two practice projects with editable source files, supplied fabrication exports, and generated board/schematic previews.
+Three practice projects with editable source files, supplied fabrication exports, and generated board/schematic previews.
 
 ![Regulator PCB](KiCad_Job_Practice_02-board.png)
 
@@ -12,6 +12,7 @@ Two practice projects with editable source files, supplied fabrication exports, 
 | :--- | :--- |
 | [KiCad Job Practice 01](KiCad_Job_Practice_01.md) | A three-footprint LED indicator practice board with a 330-ohm resistor and two-pin connector. |
 | [KiCad Job Practice 02](KiCad_Job_Practice_02.md) | A seven-footprint AMS1117-3.3 regulator practice board with capacitors, input/output connectors, and an LED indicator. |
+| [NE555 Astable LED Blinker](555_Timer_LED_Blinker.md) | A 5V timer-based LED blinker with editable source, Gerbers, drill exports, and previews. |
 
 ## Open a design
 
