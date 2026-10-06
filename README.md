@@ -34,4 +34,4 @@ Each project guide links to its editable sources, available outputs and recorded
 
 - [KiCad PCB projects](https://github.com/ehasunchy/kicad-pcb-projects)
 - [Altium PCB projects](https://github.com/ehasunchy/altium-pcb-projects)
-- [AutoCAD WTP control panel](https://github.com/ehasunchy/autocad-wtp-control-panel)
+- [AutoCAD Electrical projects](https://github.com/ehasunchy/autocad-electrical-projects)
