@@ -1,0 +1,10 @@
+Reference,Qty,Value,Footprint,Manufacturer,MPN
+C1,1,100uF,Capacitor_SMD:CP_Elec_6.3x5.8,Nichicon,UWT0J101MCL1GB
+C2,1,10uF,Capacitor_SMD:CP_Elec_4x5.8,Nichicon,UWT1C100MCL1GB
+C3,1,10nF,Capacitor_SMD:C_0805_2012Metric,YAGEO,CC0805KRX7R9BB103
+D1,1,LED,LED_SMD:LED_0805_2012Metric,Kingbright,APT2012SURCK
+"J1,J2",2,Conn_01x02,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,Würth Elektronik,61300211121
+R1,1,10k,Resistor_SMD:R_0805_2012Metric,YAGEO,RC0805FR-0710KL
+R2,1,100k,Resistor_SMD:R_0805_2012Metric,YAGEO,RC0805FR-07100KL
+R3,1,1k,Resistor_SMD:R_0805_2012Metric,YAGEO,RC0805FR-071KL
+U1,1,NE555P,Package_DIP:DIP-8_W7.62mm,Texas Instruments,NE555P
