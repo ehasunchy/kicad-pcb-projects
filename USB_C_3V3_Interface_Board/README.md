@@ -59,7 +59,7 @@ Pinouts were checked against the schematic netlist. Use the source schematic whe
 | Folder | Contents |
 | :--- | :--- |
 | [KiCad_Project](KiCad_Project/) | Editable project, schematic and PCB |
-| [Images](Images/) | Schematic SVG, PCB layer SVG and rendered 3D preview |
+| [Images](Images/) | Schematic SVG, large top/bottom layout PNG/SVG and 3D preview |
 | [Reports](Reports/README.md) | Current ERC/DRC JSON and validation notes |
 | [BOM](BOM/USB_C_3V3_Interface_Board.csv) | Component list |
 | [Manufacturing](Manufacturing/README.md) | Supplied Gerber/drill exports and download package |
@@ -84,9 +84,15 @@ No physical fabrication, assembly, load testing, thermal testing or ESD testing 
 
 ### PCB layout
 
-![PCB copper and silkscreen layers](Images/pcb-layout.svg)
+![Top copper and silkscreen](Images/pcb-layout.png)
 
-The PCB SVG combines top/bottom copper, front silkscreen and outline; the 3D image above is a generated preview, not a photograph of assembled hardware.
+[Zoomable top SVG](Images/pcb-layout.svg)
+
+![Bottom copper, viewed from below](Images/pcb-layout-bottom.png)
+
+[Zoomable bottom SVG](Images/pcb-layout-bottom.svg)
+
+Top and bottom copper are shown separately so the bottom ground fill does not cover top routing. The bottom view is mirrored to represent looking from below. Both layout PNGs are 1000 × 1280 pixels; SVG versions retain scalable detail. The 3D image above is a generated preview, not a photograph of assembled hardware.
 
 ## Author
 
