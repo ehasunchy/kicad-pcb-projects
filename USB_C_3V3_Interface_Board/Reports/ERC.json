@@ -1,0 +1,102 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-09T19:01:50",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/9fba90ec-1ebf-4b25-9bb3-8a72365bbeda",
+            "violations": [
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'GPIO1'",
+                            "pos": {
+                                "x": 2.0066,
+                                "y": 0.6858
+                            },
+                            "uuid": "b60d0013-567a-4850-bd97-821ceed9b292"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'GPIO2'",
+                            "pos": {
+                                "x": 2.0066,
+                                "y": 0.7112
+                            },
+                            "uuid": "74337078-041d-4133-9369-80f6b188be36"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "comment": "",
+                    "description": "Label connected to only one pin",
+                    "excluded": true,
+                    "items": [
+                        {
+                            "description": "Label 'GPIO1'",
+                            "pos": {
+                                "x": 2.0066,
+                                "y": 0.6858
+                            },
+                            "uuid": "b60d0013-567a-4850-bd97-821ceed9b292"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "comment": "",
+                    "description": "Label connected to only one pin",
+                    "excluded": true,
+                    "items": [
+                        {
+                            "description": "Label 'GPIO2'",
+                            "pos": {
+                                "x": 2.0066,
+                                "y": 0.7112
+                            },
+                            "uuid": "74337078-041d-4133-9369-80f6b188be36"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                }
+            ]
+        }
+    ],
+    "source": "USB_C_3V3_Interface_Board.kicad_sch"
+}
