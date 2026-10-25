@@ -65,6 +65,34 @@ guarantee electrical functionality, manufacturability,
 or successful hardware operation. Final fabrication
 and assembly review is still required.
 
+## Manufacturing Files
+
+The project includes manufacturing outputs generated
+from KiCad 10 for fabrication review and preparation.
+
+- [Gerber and Drill Files](Manufacturing/)
+- [Component Position Files](Manufacturing/)
+- [Bill of Materials (BOM)](BOM/)
+
+**Manufacturing Status:** Files generated for documentation
+and review. The design has not yet been submitted for
+fabrication or validated by a PCB manufacturer.
+
+## Bill of Materials (BOM)
+
+The BOM includes component references, quantities,
+and component information for the PCB design.
+
+- [BOM Excel Workbook](BOM/ESP32_IoT_Sensor_Controller_BOM.xlsx)
+- [BOM PDF](BOM/ESP32_IoT_Sensor_Controller_BOM.pdf)
+
+**Total Components:** 36 per board
+(according to the prepared BOM).
+
+*Component availability, exact ordering part numbers,
+and assembly compatibility should be confirmed
+before procurement.*
+
 ## PCB 3D Views
 
 ### Top View
