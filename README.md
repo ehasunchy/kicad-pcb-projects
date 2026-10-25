@@ -34,7 +34,6 @@ Five PCB design projects, ranging from basic LED circuits and voltage regulators
 | [LED Basic Board](LED_Basic_Board/README.md) | A three-footprint LED indicator practice board with a 330-ohm resistor and two-pin connector. |
 | [5V to 3V3 LDO Board](5V_to_3V3_LDO_Board/README.md) | A seven-footprint AMS1117-3.3 regulator practice board with capacitors, input/output connectors, and an LED indicator. |
 | [NE555 Astable LED Blinker](555_Timer_LED_Blinker/README.md) | A 5V timer-based LED blinker with editable source, Gerbers, drill exports, and previews. |
-
 | [USB-C 3.3V Interface Board](USB_C_3V3_Interface_Board/README.md) | A USB-C-powered AP2112K-3.3 regulator board with I²C/GPIO headers, BOM, manufacturing outputs and current checks with disclosed exclusions. |
 
 ## Open a design
