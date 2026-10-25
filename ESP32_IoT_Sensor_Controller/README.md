@@ -20,6 +20,17 @@ and manufacturing documentation preparation.
 files generated. The PCB has not yet been fabricated
 or physically tested.
 
+## Hardware Specifications
+
+| Component | Model / Specification | Function |
+|---|---|---|
+| Microcontroller | ESP32-WROOM-32E | Wi-Fi and Bluetooth connectivity |
+| Temperature & Humidity Sensor | SHT31 | Environmental sensing |
+| USB-to-UART Converter | CP2102N | USB serial communication and programming interface |
+| Voltage Regulator | AP7361C-33FGE-7 | Regulated 3.3V power supply |
+| USB Connector | USB Type-C | USB power and data connection |
+| PCB | 2-layer FR-4 | Custom PCB design |
+
 ## PCB 3D Views
 
 ### Top View
