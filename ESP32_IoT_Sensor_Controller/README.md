@@ -122,3 +122,31 @@ humidity sensor.
 ![ESP32 IoT Sensor Controller Circuit Schematic](Images/ESP32_IoT_Sensor_Controller_Schematic.svg)
 
 [View full-resolution schematic](Images/ESP32_IoT_Sensor_Controller_Schematic.svg)
+
+## Repository Structure
+
+```text
+ESP32_IoT_Sensor_Controller/
+├── KiCad_Project/   # Schematic, PCB and project libraries
+├── Manufacturing/   # Gerber, drill and position files
+├── BOM/             # Excel and PDF bill of materials
+├── Images/          # Schematic and PCB previews
+└── README.md        # Project documentation
+```
+
+## Project Limitations & Next Steps
+
+This is a portfolio and educational PCB design project.
+The following work remains before production use:
+
+- Review the PCB against the selected manufacturer's
+  fabrication and assembly requirements.
+- Verify component footprints, ordering part numbers
+  and availability.
+- Review ESP32 antenna clearance and mechanical constraints.
+- Fabricate and assemble a prototype PCB.
+- Perform power, USB communication, firmware programming
+  and sensor functionality tests.
+
+**Project Status:** Design and documentation completed;
+prototype fabrication and hardware validation pending.
