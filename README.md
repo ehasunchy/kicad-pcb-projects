@@ -1,5 +1,25 @@
 # KiCad PCB Design Portfolio
 
+## Featured Project — ESP32 IoT Sensor Controller
+
+![ESP32 IoT Sensor Controller PCB](ESP32_IoT_Sensor_Controller/Images/ESP32_IoT_Sensor_Controller_3D_Top.png)
+
+A custom-designed, two-layer ESP32 IoT controller PCB
+developed in KiCad 10, integrating an ESP32-WROOM-32E,
+SHT31 temperature and humidity sensor, CP2102N
+USB-to-UART interface, and regulated 3.3V power supply.
+
+**Highlights:**
+- Complete schematic and PCB layout
+- ERC and DRC passed with 0 errors and 0 warnings
+- Fully routed PCB with 0 unrouted connections
+- Gerber X2, drill files, component position files, and BOM included
+- Design completed; fabrication and physical testing pending
+
+**[Explore the ESP32 IoT Sensor Controller Project](ESP32_IoT_Sensor_Controller/README.md)**
+
+---
+
 **LED indicators · Voltage regulation · NE555 timer · USB-C power · Schematic-to-PCB workflow**
 
 Four practice projects with editable source files, supplied fabrication exports, and generated board/schematic previews.
