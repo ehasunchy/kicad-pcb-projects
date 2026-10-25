@@ -47,6 +47,24 @@ or physically tested.
 specifications and have not yet been confirmed
 through fabrication.*
 
+## Design Validation
+
+The schematic and PCB layout were checked using
+KiCad 10's built-in verification tools.
+
+| Verification | Result |
+|---|---|
+| Electrical Rules Check (ERC) | Passed — 0 errors, 0 warnings |
+| Design Rules Check (DRC) | Passed — 0 errors, 0 warnings |
+| Unrouted Connections | 0 |
+| Physical Hardware Testing | Not performed |
+
+**Note:** Passing ERC and DRC confirms compliance
+with the configured design checks; it does not
+guarantee electrical functionality, manufacturability,
+or successful hardware operation. Final fabrication
+and assembly review is still required.
+
 ## PCB 3D Views
 
 ### Top View
