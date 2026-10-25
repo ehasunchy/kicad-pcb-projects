@@ -31,6 +31,22 @@ or physically tested.
 | USB Connector | USB Type-C | USB power and data connection |
 | PCB | 2-layer FR-4 | Custom PCB design |
 
+## PCB Specifications
+
+| Parameter | Specification |
+|---|---|
+| PCB Layers | 2 (Top and Bottom Copper) |
+| Board Material | FR-4 (proposed) |
+| Board Thickness | 1.6 mm (nominal target) |
+| Copper Weight | 1 oz (target) |
+| PCB Design Tool | KiCad 10 |
+| Routing Status | 0 unrouted connections |
+| Manufacturing Outputs | Gerber X2, drill files, component position files |
+
+*Board stack-up values are intended manufacturing
+specifications and have not yet been confirmed
+through fabrication.*
+
 ## PCB 3D Views
 
 ### Top View
