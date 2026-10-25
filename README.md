@@ -22,7 +22,7 @@ USB-to-UART interface, and regulated 3.3V power supply.
 
 **LED indicators · Voltage regulation · NE555 timer · USB-C power · Schematic-to-PCB workflow**
 
-Four practice projects with editable source files, supplied fabrication exports, and generated board/schematic previews.
+Five PCB design projects, ranging from basic LED circuits and voltage regulators to an ESP32-based IoT sensor controller, with editable KiCad sources, design previews, and available manufacturing documentation.
 
 ![Regulator PCB](5V_to_3V3_LDO_Board/Images/5V_to_3V3_LDO_Board-board.png)
 
@@ -30,6 +30,7 @@ Four practice projects with editable source files, supplied fabrication exports,
 
 | Project | Scope |
 | :--- | :--- |
+| [ESP32 IoT Sensor Controller](ESP32_IoT_Sensor_Controller/README.md) | Two-layer ESP32 IoT PCB featuring SHT31 sensing, CP2102N USB-UART, 3.3V regulation, design verification, BOM, and manufacturing outputs. |
 | [LED Basic Board](LED_Basic_Board/README.md) | A three-footprint LED indicator practice board with a 330-ohm resistor and two-pin connector. |
 | [5V to 3V3 LDO Board](5V_to_3V3_LDO_Board/README.md) | A seven-footprint AMS1117-3.3 regulator practice board with capacitors, input/output connectors, and an LED indicator. |
 | [NE555 Astable LED Blinker](555_Timer_LED_Blinker/README.md) | A 5V timer-based LED blinker with editable source, Gerbers, drill exports, and previews. |
